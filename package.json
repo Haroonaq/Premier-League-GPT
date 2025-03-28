@@ -1,0 +1,33 @@
+{
+  "name": "next.js-premierleaguegpt",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "seed": "ts-node ./scripts/loadDb.ts",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^1.3.3",
+    "@datastax/astra-db-ts": "^1.1.0",
+    "ai": "^4.2.6",
+    "dotenv": "^16.4.5",
+    "langchain": "^0.1.36",
+    "next": "^14.2.3",
+    "openai": "^4.41.0",
+    "puppeteer": "^24.4.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "typescript": "^5"
+  }
+}
