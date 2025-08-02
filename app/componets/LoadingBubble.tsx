@@ -1,7 +1,8 @@
 const LoadingBubble = () => {
     return (
-        <div className="loader"></div>
-
+        <div className="bubble assistant">
+            <div className="loader"></div>
+        </div>
     )
 }
 
